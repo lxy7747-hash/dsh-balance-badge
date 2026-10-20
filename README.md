@@ -25,8 +25,7 @@ and makes no request of its own beyond that account query.
 
 ## Install
 
-From the DSH plugin market: search for **Balance Badge**, or add the Git address
-in **Plugins → Add plugin**:
+Add the Git address in **Plugins → Add plugin**:
 
 ```
 https://github.com/lxy7747-hash/dsh-balance-badge

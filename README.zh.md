@@ -21,7 +21,7 @@
 
 ## 安装
 
-在 DSH 插件市场搜索 **Balance Badge**，或在「插件 → 添加插件」中填入 Git 地址：
+在「插件 → 添加插件」中填入 Git 地址即可：
 
 ```
 https://github.com/lxy7747-hash/dsh-balance-badge
