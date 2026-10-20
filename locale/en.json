@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Balance",
+    "description": "Shows the signed-in DeepSeek account balance in the sidebar foot and refreshes it on demand."
+  }
+}

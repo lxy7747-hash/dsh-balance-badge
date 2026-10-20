@@ -1,0 +1,50 @@
+{
+  "name": "dsh-balance-badge",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Shows the signed-in DeepSeek account balance — recharge plus bonus — in the DeepSeek Harness Web sidebar foot.",
+  "license": "MIT",
+  "author": "lxy7747-hash",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "deepseek",
+    "balance",
+    "sidebar"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lxy7747-hash/dsh-balance-badge.git"
+  },
+  "homepage": "https://github.com/lxy7747-hash/dsh-balance-badge#readme",
+  "bugs": {
+    "url": "https://github.com/lxy7747-hash/dsh-balance-badge/issues"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "docs/preview.png"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-api-remotes",
+        "@deepseek-ai/dsh-client-ui-sidebar"
+      ]
+    }
+  }
+}

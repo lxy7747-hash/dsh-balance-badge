@@ -1,0 +1,4 @@
+# Register the balance badge row; the Client module owns the rendering.
+- insert:
+    - id: balance-badge
+      name: dsh-balance-badge
